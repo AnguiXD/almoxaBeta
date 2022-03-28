@@ -21,3 +21,33 @@ body {
     left: 10px;
 }
 
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav.visible {
+    transform: translateX(0);
+}
+
+.nav-black{
+    background-color: rgb(34, 31, 31);
+    width: 60%;
+    max-width: 300px;
+    min-width: 220px;
+}
+
+.nav-gray{
+    background-color: rgb(94, 94, 94);
+    width: 95%;
+}
+
+.nav-blue{
+    background-color: rgb(3, 76, 145);
+    width: 95%;
+}
