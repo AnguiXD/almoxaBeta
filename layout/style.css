@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-* {
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -13,6 +9,7 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
+    background-color: rgb(189, 189, 189);
 }
 
 .open-btn {
@@ -21,6 +18,11 @@ body {
     left: 10px;
 }
 
+.close-btn {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
 
 .nav {
     position: fixed;
@@ -39,15 +41,10 @@ body {
     background-color: rgb(34, 31, 31);
     width: 60%;
     max-width: 300px;
-    min-width: 220px;
+    min-width: 100px;
 }
 
 .nav-gray{
     background-color: rgb(94, 94, 94);
-    width: 95%;
-}
-
-.nav-blue{
-    background-color: rgb(3, 76, 145);
     width: 95%;
 }
