@@ -6,7 +6,7 @@ function loadPage(pageChoosen=1)
     {
         $(function()
         {
-            $('#main').load('../view/auth/login.html');
+            $('#main').load('../view/auth/login.php');
         })
     }
     else if(pageChoosen==2)
